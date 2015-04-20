@@ -2,7 +2,7 @@
 
 var monty = function(SwitchDoor) {
 
-	numberofWins = 0;
+	numberOfWins = 0;
 
 	var doors = [1, 2, 3];
 	var random = function() {
@@ -16,7 +16,7 @@ var monty = function(SwitchDoor) {
 			numberofWins++;
 		}
 	}
-	return numberofWins;
+	return numberOfWins;
 }
 	
 
