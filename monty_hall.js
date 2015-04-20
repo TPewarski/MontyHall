@@ -13,7 +13,7 @@ var monty = function(SwitchDoor) {
 	  var guess = random();
 
 		if ((guess === prize && !SwitchDoor) || (guess !== prize && SwitchDoor)) {
-			numberofWins++;
+			numberOfWins++;
 		}
 	}
 	return numberOfWins;
